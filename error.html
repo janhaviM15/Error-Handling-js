@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+            function show()
+        {
+            let a=87;
+            let b=0;
+
+            try{
+                if(b==0)
+                {throw("divide by ZERO error");}
+                else
+                {let c = a/b;}
+
+            }
+        
+        catch(e)
+        {
+            alert("Error:"+e);
+
+        }
+    }
+    </script>
+    
+ </head>   
+<body>
+    <form>
+        <input type="button" value="click" onclick="show()">
+    </form>
+    
+</body>
+</html>
